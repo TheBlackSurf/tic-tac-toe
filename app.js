@@ -34,6 +34,7 @@ function addGo(e) {
 
 
 
+
 function checkScore() {
   const allSquares = document.querySelectorAll(".square")
   console.log(allSquares)
@@ -63,4 +64,8 @@ function checkScore() {
   })
 
 
+}
+
+function reset() {
+  window.location.reload();
 }
